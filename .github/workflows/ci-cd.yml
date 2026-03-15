@@ -24,7 +24,7 @@ jobs:
           context: .
           push: true
           # ⚠️ แก้ตรงนี้เป็นชื่อ Docker Hub ของมึง
-          tags: boonyarit/React-dog-skin-disease:latest 
+          tags: boonyaritllennkim/react-dog-skin-disease:latest 
 
   deploy:
     needs: build-and-push-docker-image
@@ -38,7 +38,7 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
             # ⚠️ แก้ตรง your-username/your-repo-name ให้ตรงกับข้างบน
-            docker pull boonyarit/React-dog-skin-disease:latest
+            docker pull boonyaritllennkim/react-dog-skin-disease:latest
             docker stop my-react-app || true
             docker rm my-react-app || true
-            docker run -d --name my-react-app -p 80:80 boonyarit/React-dog-skin-disease:latest
+            docker run -d --name my-react-app -p 80:80 boonyaritllennkim/react-dog-skin-disease:latest
