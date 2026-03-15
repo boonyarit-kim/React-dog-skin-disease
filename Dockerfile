@@ -1,5 +1,6 @@
 # Stage 1: Build the React application
-FROM node:18-alpine AS build
+# เปลี่ยนมาใช้ Node 22 เพื่อให้รองรับกับ Vite ตัวล่าสุด
+FROM node:22-alpine AS build
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
