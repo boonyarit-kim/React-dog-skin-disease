@@ -105,7 +105,7 @@ export default function App() {
           </h1>
           <p className="text-xl text-slate-500 max-w-3xl mx-auto font-light leading-relaxed">
             ระบบวิเคราะห์โรคผิวหนังสัตว์เลี้ยงด้วยปัญญาประดิษฐ์ที่แม่นยำและรวดเร็ว <br/>
-            อัปโหลดรูปภาพรอยโรค เพื่อรับผลการวิเคราะห์ทันที (max 5 images)
+            
           </p>
         </section>
 
