@@ -101,7 +101,7 @@ export default function App() {
         {/* Header Section */}
         <section className="text-center mb-16">
           <h1 className="text-5xl md:text-6xl font-black text-slate-900 mb-6 tracking-tight leading-tight">
-            ขุมพลัง AI <br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-500">Dermatology Analysis</span>
+            AI-Powered <br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-500">Dermatology Analysis</span>
           </h1>
           <p className="text-xl text-slate-500 max-w-3xl mx-auto font-light leading-relaxed">
             ระบบวิเคราะห์โรคผิวหนังสัตว์เลี้ยงด้วยปัญญาประดิษฐ์ที่แม่นยำและรวดเร็ว <br/>
