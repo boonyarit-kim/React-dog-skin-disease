@@ -23,7 +23,7 @@ jobs:
         with:
           context: .
           push: true
-          # ⚠️ แก้ตรงนี้เป็นชื่อ Docker Hub ของมึง
+          
           tags: boonyaritllennkim/react-dog-skin-disease:latest 
 
   deploy:
@@ -37,7 +37,7 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
-            # ⚠️ แก้ตรง your-username/your-repo-name ให้ตรงกับข้างบน
+            
             docker pull boonyaritllennkim/react-dog-skin-disease:latest
             docker stop my-react-app || true
             docker rm my-react-app || true
